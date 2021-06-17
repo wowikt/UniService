@@ -1,0 +1,53 @@
+Packages/
+bin/
+binImp/
+**/bin/Release/
+**/bin/Debug/
+**/obj/
+**/.vs/
+**/Logs/
+*.user
+*.map
+*.csproj.user
+
+
+# from 3.x
+JsonSchemas/node_modules/
+JsonSchemas/**/*.js
+JsonSchemas/**/*.js.map
+
+# ImplementationConfiguration.config
+/Core/Library/Adacta.Service/AdService/conf/ImplementationConfiguration.config
+/Implementations/Exiar/Applications/AdInsure.Exiar.ClientApp/conf/ImplementationConfiguration.config
+/Implementations/Exiar/Applications/AdInsure.Exiar.Portal.Server/conf/ImplementationConfiguration.config
+/Implementations/Exiar/Applications/AdInsure.Exiar.WebService/conf/ImplementationConfiguration.config
+
+# Implementation schemes
+Implementations/Exiar/Applications/AdInsure.Exiar.WebService/Integration/*
+
+# Config files
+Adacta.IIS.Client.exe - Shortcut.lnk
+Core/Library/Adacta.Service/AdService/App.config
+Core/Library/Adacta.Service/Adacta.Service.JobRunner/App.config
+Core/Adacta.AdInsure.Merger/Adacta.AdInsure.Merger.TestClient/App.config
+Core/Library/Adacta.Service.TestClient/Adacta.Service.TestClient/App.config
+Modules/Country/AdInsure.RU/RSA/AdInsure.RU.RSA.Business.Contracts/App.config
+Modules/Country/AdInsure.RU/Common/AdInsure.RU.Client/App.config
+Modules/Country/AdInsure.RU/Common/AdInsure.RU.Business/App.config
+Implementations/Exiar/AdInsure.Exiar.Data.Tests/App.config
+Implementations/Exiar/Applications/AdInsure.Exiar.IdentityServer/Web.config
+Implementations/Exiar/Applications/AdInsure.Exiar.API.TestApp/App.config
+Implementations/Exiar/Resources/Translations..xml
+Implementations/Exiar/Applications/Adinsure.Exiar.ClientApp/App.config
+Implementations/Exiar/Applications/AdInsure.Exiar.WebService/Web.config
+Product/Framework/Libraries/Core.IdentityServer/App.config
+
+# Temp files
+.build/tmpAssemblyInfo.cs
+.build/Cache/*
+
+.idea
+.idea/*
+FodyWeavers.xsd
+**/StyleCop.Cache
+**/Settings.StyleCop
